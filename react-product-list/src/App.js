@@ -5,6 +5,7 @@ console.log(data)
 console.log(allCategories)
 console.log(uniqueCategories)
 console.log(catCount)
+// console.log(catsNcounts)
 
 
 function App() {
