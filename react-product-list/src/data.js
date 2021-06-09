@@ -3,7 +3,7 @@ import data from './data.json'
 
 export default data
 
-// console.log(data[1])
+console.log(data[1])
 
 // setting list of categories 
 
@@ -17,7 +17,7 @@ const cats = allCategories.reduce((acc, cat) => {
 // removing Duplicate categories
 const uniqueCategories = Object.keys(cats)
 
-const catCount = allCategories.reduce((acc, allCategories) => {
+const catCount = allCategories.reduce((acc, cats) => {
     if (acc[cats] === undefined) {
         acc[cats] = 1
     }
