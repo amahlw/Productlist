@@ -28,15 +28,15 @@ const catCount = allCategories.reduce((acc, cats) => {
 }, {})
 
 
-// const catsNcounts = uniqueCategories.map(name => {
-//     return { name, count: catsNcounts[name] }
-// })
+const catsAndCounts = uniqueCategories.map(name => {
+    return { name, count: catCount[name] }
+})
 
 export {
     allCategories,
     uniqueCategories,
     catCount,
-    // catsNcounts
+    catsAndCounts
 
 
 }

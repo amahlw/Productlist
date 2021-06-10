@@ -1,11 +1,11 @@
 import './App.css';
-import data, { allCategories, uniqueCategories, catCount } from './data'
+import data, { allCategories, uniqueCategories, catCount, catsAndCounts } from './data'
 
-console.log(data)
-console.log(allCategories)
-console.log(uniqueCategories)
-console.log(catCount)
-// console.log(catsNcounts)
+// console.log(data)
+// console.log(allCategories)
+// console.log(uniqueCategories)
+// console.log(catCount)
+console.log(catsAndCounts)
 
 
 function App() {
