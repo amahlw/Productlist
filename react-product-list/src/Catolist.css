@@ -1,0 +1,14 @@
+.Catolist{
+    display: flex;
+    flex-wrap: wrap ;
+    background-color: darkorange;
+}
+.Catolist > button {
+    font-size: 1rem;
+    padding:0.5rem 1rem;
+    border-width:3px;
+    border-style: solid;
+    border-color: darkmagenta;
+    border-radius: 0.5rem;
+
+}

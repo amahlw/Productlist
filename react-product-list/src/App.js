@@ -1,18 +1,21 @@
 import './App.css';
-import data, { allCategories, uniqueCategories, catCount, catsAndCounts } from './data'
+import data, { uniqueCategories } from './data'
+import Prolist from './Prolist'
+import Catolist from './Catolist'
+import './Catolist.css'
+import './Prolist.css'
 
-// console.log(data)
-// console.log(allCategories)
-// console.log(uniqueCategories)
-// console.log(catCount)
-console.log(catsAndCounts)
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>Product List</h1>
+      <p> Product Count:{data.length} </p>
+      <p>Category Count:{uniqueCategories.length} </p>
+      <Catolist />
 
+      <Prolist />
     </div>
   );
 }
