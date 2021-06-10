@@ -3,7 +3,7 @@ import './Prolist.css'
 
 function Prolist() {
     return (
-        <div classname="Prolist">
+        <div className="Prolist">
             {data.map(obj => {
                 return (
                     <div>

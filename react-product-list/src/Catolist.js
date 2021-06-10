@@ -4,7 +4,7 @@ import './Catolist.css'
 
 function Catolist() {
     return (
-        <div classname="Catolist">
+        <div className="Catolist">
             {catsAndCounts.map(obj => {
                 return (
                     <button>
