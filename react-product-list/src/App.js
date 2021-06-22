@@ -5,10 +5,12 @@ import Catolist from './Catolist'
 import Header from './Header'
 // import './Catolist.css'
 // import './Prolist.css'
+import { useState } from 'react'
 
 
 
 function App() {
+  const { catSelect, catSet } = useState('Tools')
   return (
     <div className="App">
 
@@ -19,9 +21,9 @@ function App() {
       />
 
 
-      <Catolist />
+      <Catolist catSelect={catSelect} />
 
-      <Prolist />
+      <Prolist catSelect={catSelect} />
     </div>
   );
 }

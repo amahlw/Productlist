@@ -1,10 +1,11 @@
 import data from './data'
 import './Prolist.css'
 
-function Prolist() {
+function Prolist(props) {
+    const { catSelect } = props
     return (
         <div className="Prolist">
-            {data.map(obj => {
+            {data.filter(obj => obj.catSelect === catSelect).map(obj => {
                 return (
                     <div>
                         <h2>{obj.name}</h2>
